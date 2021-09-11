@@ -40,10 +40,12 @@ public class ServletInitParam extends HttpServlet {
 	      
 	      PrintWriter writer = response.getWriter();
 	      
+		
+		//이 부분은 한글이 보여짐
 	      writer.println("<html><head></head><body>");
-	      writer.println("���̵�:"+id+"</br>");
-	      writer.println("��й�ȣ:"+pw+"</br>");
-	      writer.println("���:"+path+"</br>");
+	      writer.println("¾ÆÀÌµð:"+id+"</br>");
+	      writer.println("ºñ¹Ð¹øÈ£:"+pw+"</br>");
+	      writer.println("°æ·Î:"+path+"</br>");
 	      writer.println("</body></html>");
 	      
 	      writer.close();
